@@ -1,0 +1,61 @@
+[
+  {
+    "keyword": "Funcionalidade",
+    "name": "Pesquisa de um Produto no site Americanas",
+    "line": 3,
+    "id": "pesquisa-de-um-produto-no-site-americanas",
+    "tags": [],
+    "uri": "features/scenarios/home.feature",
+    "elements": [
+      {
+        "id": "pesquisa-de-um-produto-no-site-americanas;realizar-uma-busca-de-um-produto-existente-no-site-americanas",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Realizar uma busca de um produto existente no site Americanas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que eu esteja na pagina inicial da Americanas",
+            "match": {
+              "location": "features/step_definitions/home_steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6770000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "realizar uma busca de um produto existente",
+            "match": {
+              "location": "features/step_definitions/home_steps.js:21"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 11000000,
+              "error_message": "TypeError: Invalid locator\n    at Object.check [as checkedLocator] (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/by.js:275:9)\n    at Driver.findElements (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/webdriver.js:1041:18)\n    at ptor.waitForAngular.then (/usr/local/lib/node_modules/protractor/built/element.js:159:44)\n    at ManagedPromise.invokeCallback_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:1376:14)\n    at TaskQueue.execute_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n    at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n    at asyncRun (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27)\n    at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7\n    at process.internalTickCallback (internal/process/next_tick.js:77:7)Error\n    at ElementArrayFinder.applyAction_ (/usr/local/lib/node_modules/protractor/built/element.js:459:27)\n    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/built/element.js:91:29)\n    at ElementFinder.(anonymous function).args [as sendKeys] (/usr/local/lib/node_modules/protractor/built/element.js:831:22)\n    at World.<anonymous> (/Users/andreazevedo/projetos/protractor/features/step_definitions/home_steps.js:23:52)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 8,
+            "name": "vejo o resultado da pesquisa do produto existente",
+            "match": {
+              "location": "features/step_definitions/home_steps.js:27"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
