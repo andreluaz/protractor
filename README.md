@@ -16,7 +16,7 @@ https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
 
 Após a instalação do git digite:
 ```
-git clone https://github.com/andreluaz/protractor-specs.git
+git clone https://github.com/andreluaz/protractor.git
 ```
 ## Instalação das dependências:
 
