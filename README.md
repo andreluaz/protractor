@@ -29,7 +29,7 @@ Isto fará a instalação das dependências necessárias para a execução dos t
 
 ## Uso:
 
-Para usar digite:
+Para executar digite:
 
 ```
 protractor protractor.conf.js
