@@ -37,6 +37,12 @@ ou
 npm test
 ```
 
+## Arquitetura do Projeto
+
+```
+
+```
+
 ## Troubleshooting
 
 Caso execute o comando:
@@ -58,12 +64,6 @@ Execute o comando abaixo:
 webdriver-manager update
 ou
 node ./node_modules/protractor/bin/webdriver-manager update
-```
-
-## Arquitetura do Projeto
-
-```
-
 ```
 
 ## Referências
