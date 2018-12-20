@@ -37,7 +37,7 @@ ou
 npm test
 ```
 
-## Troubleshooting:
+## Troubleshooting
 
 Caso execute o comando:
 
