@@ -40,7 +40,24 @@ npm test
 ## Arquitetura do Projeto
 
 ```
-
+├── README.md
+├── features
+│   ├── pages
+│   │   └── page-home-americanas.js
+│   ├── scenarios
+│   │   └── home.feature
+│   ├── step_definitions
+│   │   └── home_steps.js
+│   └── support
+│       ├── common.js
+│       └── env.js
+├── node_modules
+├── package-lock.json
+├── package.json
+├── protractor.conf.js
+├── report
+│   └── cucumber_report.html
+└── results.json
 ```
 
 ## Troubleshooting
